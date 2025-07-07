@@ -1,0 +1,463 @@
+/* MS Installment Admin Styles */
+
+/* Applications Table */
+.ms-installment-filters {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.ms-installment-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: end;
+}
+
+.ms-installment-filter-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.ms-installment-filter-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.ms-installment-filter-group input,
+.ms-installment-filter-group select {
+    min-width: 150px;
+}
+
+.ms-installment-applications-table {
+    margin-top: 20px;
+}
+
+.ms-bulk-actions {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.ms-bulk-actions select {
+    margin-right: 10px;
+}
+
+/* Status Styles */
+.ms-installment-status {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ms-installment-status.status-pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.ms-installment-status.status-approved {
+    background: #d4edda;
+    color: #155724;
+}
+
+.ms-installment-status.status-rejected {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Modal Styles */
+.ms-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.ms-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ms-modal-header {
+    background: #0073aa;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.ms-modal-header h2 {
+    margin: 0;
+    color: white;
+}
+
+.ms-modal-close {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.ms-modal-close:hover {
+    opacity: 0.7;
+}
+
+.ms-modal-body {
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+/* Application Details */
+.ms-application-details {
+    font-size: 14px;
+}
+
+.ms-application-section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.ms-application-section h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #0073aa;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 5px;
+}
+
+.ms-application-field {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.ms-application-field label {
+    font-weight: 600;
+    min-width: 150px;
+    margin-right: 10px;
+    color: #555;
+}
+
+.ms-application-field .value {
+    flex: 1;
+}
+
+.ms-application-field .value.yes {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.ms-application-field .value.no {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+/* Application Actions */
+.ms-application-actions {
+    background: #e7f3ff;
+    border: 1px solid #0073aa;
+}
+
+.ms-status-actions {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ms-status-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.ms-status-btn.ms-status-pending {
+    background: #ffc107;
+    color: #000;
+}
+
+.ms-status-btn.ms-status-pending:hover {
+    background: #e0a800;
+}
+
+.ms-status-btn.ms-status-approve {
+    background: #28a745;
+    color: white;
+}
+
+.ms-status-btn.ms-status-approve:hover {
+    background: #218838;
+}
+
+.ms-status-btn.ms-status-reject {
+    background: #dc3545;
+    color: white;
+}
+
+.ms-status-btn.ms-status-reject:hover {
+    background: #c82333;
+}
+
+.ms-admin-notes {
+    margin-top: 20px;
+}
+
+.ms-admin-notes h4 {
+    margin-bottom: 10px;
+}
+
+.ms-admin-notes textarea {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.ms-save-notes {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ms-save-notes:hover {
+    background: #005a87;
+}
+
+/* Email Settings Styles */
+.ms-email-settings-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.ms-email-settings-section h3 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+.ms-email-test-section {
+    background: #e7f3ff;
+    padding: 20px;
+    border: 1px solid #0073aa;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.ms-email-test-section h3 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+/* User Management Styles */
+.ms-users-list {
+    margin-top: 10px;
+}
+
+.ms-users-list table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ms-users-list th {
+    background: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid #ddd;
+}
+
+.ms-users-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.ms-users-list tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.ms-users-list tr:hover {
+    background: #f0f0f0;
+}
+
+/* Role Permissions Styles */
+.ms-role-permissions {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.ms-role-permissions h4 {
+    margin-top: 0;
+    color: #0073aa;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 5px;
+}
+
+.ms-role-checkbox {
+    margin: 8px 0;
+    padding: 5px 0;
+}
+
+.ms-role-checkbox label {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ms-role-checkbox input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.ms-role-checkbox em {
+    color: #666;
+    font-style: italic;
+    margin-left: 5px;
+}
+
+/* Permission Status Indicators */
+.ms-permission-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.ms-permission-status.yes {
+    color: #28a745;
+}
+
+.ms-permission-status.no {
+    color: #dc3545;
+}
+
+/* Settings Section Headers */
+.form-table h2 {
+    color: #0073aa;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.form-table h2:first-of-type {
+    margin-top: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ms-installment-filter-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .ms-installment-filter-group {
+        margin-bottom: 10px;
+    }
+    
+    .ms-modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+    
+    .ms-application-field {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .ms-application-field label {
+        min-width: auto;
+        margin-bottom: 5px;
+    }
+    
+    .ms-status-actions {
+        flex-direction: column;
+    }
+    
+    .ms-status-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Loading States */
+.ms-loading {
+    opacity: 0.6;
+    pointer-events: none;
+    position: relative;
+}
+
+.ms-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Success/Error Messages */
+.ms-notice {
+    padding: 12px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border-left: 4px solid;
+}
+
+.ms-notice.success {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.ms-notice.error {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+} 

@@ -1,0 +1,617 @@
+# Copyright (C) 2024 M&S Electronics
+# This file is distributed under the same license as the M&S Installment Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: M&S Installment Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ms-installment-plugin.php:35
+msgid "M&S Installment Plugin requires WooCommerce to be installed and activated."
+msgstr ""
+
+#: ms-installment-plugin.php:58
+msgid "Installment Applications"
+msgstr ""
+
+#: ms-installment-plugin.php:59
+msgid "Installments"
+msgstr ""
+
+#: ms-installment-plugin.php:66
+msgid "Applications"
+msgstr ""
+
+#: ms-installment-plugin.php:72
+msgid "Settings"
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:120
+msgid "Buy on Installments"
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:140
+msgid "Installment Settings"
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:145
+msgid "Enable installment for this product"
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:175
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:181
+msgid "You must agree to the terms and conditions."
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:210
+msgid "Application submitted successfully! If 8 points are ok then we will accept the request and we will deliver the said goods in 72 hours minimum. After verification process"
+msgstr ""
+
+#: includes/class-ms-installment-plugin.php:213
+msgid "Error submitting application. Please try again."
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:25
+msgid "Product name"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:26
+msgid "Product price"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:27
+msgid "Lahore residence"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:28
+msgid "Residence type"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:29
+msgid "Profession"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:30
+msgid "Bank account"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:31
+msgid "Guarantor"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:32
+msgid "CNIC"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:33
+msgid "Customer name"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:34
+msgid "Customer email"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:35
+msgid "Customer phone"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:36
+msgid "Customer address"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:42
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:47
+msgid "Please enter a valid product price."
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:52
+msgid "You must agree to the terms and conditions."
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:60
+msgid "Pending"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:61
+msgid "Approved"
+msgstr ""
+
+#: includes/class-ms-installment-frontend.php:62
+msgid "Rejected"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:25
+msgid "Installment Calculator"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:26
+msgid "Calculate your installment plan and apply for financing."
+msgstr ""
+
+#: templates/frontend/calculator-form.php:30
+msgid "Product Information"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:34
+msgid "Product Name"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:39
+msgid "Product Price (PKR)"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:46
+msgid "Processing Fee (PKR)"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:51
+msgid "Calculate Installment"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:57
+msgid "Installment Calculation"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:62
+msgid "Product Price:"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:67
+msgid "Processing Fee:"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:72
+msgid "Total Amount:"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:77
+msgid "Monthly Installment (3 months):"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:83
+msgid "Application Form"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:90
+msgid "Eligibility Questions"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:95
+msgid "Are you resident of Lahore?"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:96
+msgid "Yes"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:97
+msgid "No"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:103
+msgid "Residence:"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:104
+msgid "Own"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:105
+msgid "Rented"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:111
+msgid "Profession:"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:112
+msgid "Job"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:113
+msgid "Business"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:119
+msgid "Do you have any bank's account?"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:125
+msgid "Can you provide one guarantor?"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:131
+msgid "Do you have CNIC?"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:140
+msgid "Personal Information"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:144
+msgid "Full Name"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:149
+msgid "Email Address"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:154
+msgid "Phone Number"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:160
+msgid "Address"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:167
+msgid "Terms and Conditions"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:171
+msgid "M&S Electronics will have the right to reject the request without reason"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:172
+msgid "No price discounts possible after agreeing on one price"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:173
+msgid "In case of non-payment, company has right to take legal action"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:179
+msgid "I agree to the mentioned terms"
+msgstr ""
+
+#: templates/frontend/calculator-form.php:185
+msgid "Submit Application"
+msgstr ""
+
+#: templates/admin/applications-page.php:25
+msgid "All Statuses"
+msgstr ""
+
+#: templates/admin/applications-page.php:26
+msgid "Pending"
+msgstr ""
+
+#: templates/admin/applications-page.php:27
+msgid "Approved"
+msgstr ""
+
+#: templates/admin/applications-page.php:28
+msgid "Rejected"
+msgstr ""
+
+#: templates/admin/applications-page.php:32
+msgid "Date From:"
+msgstr ""
+
+#: templates/admin/applications-page.php:36
+msgid "Date To:"
+msgstr ""
+
+#: templates/admin/applications-page.php:40
+msgid "Search:"
+msgstr ""
+
+#: templates/admin/applications-page.php:41
+msgid "Product name, customer name, email, phone"
+msgstr ""
+
+#: templates/admin/applications-page.php:44
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/applications-page.php:45
+msgid "Clear"
+msgstr ""
+
+#: templates/admin/applications-page.php:52
+msgid "No applications found."
+msgstr ""
+
+#: templates/admin/applications-page.php:58
+msgid "ID"
+msgstr ""
+
+#: templates/admin/applications-page.php:59
+msgid "Product"
+msgstr ""
+
+#: templates/admin/applications-page.php:60
+msgid "Customer"
+msgstr ""
+
+#: templates/admin/applications-page.php:61
+msgid "Total Amount"
+msgstr ""
+
+#: templates/admin/applications-page.php:62
+msgid "Status"
+msgstr ""
+
+#: templates/admin/applications-page.php:63
+msgid "Date"
+msgstr ""
+
+#: templates/admin/applications-page.php:64
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/applications-page.php:82
+msgid "3 x"
+msgstr ""
+
+#: templates/admin/applications-page.php:90
+msgid "View"
+msgstr ""
+
+#: templates/admin/applications-page.php:105
+msgid "Application Details"
+msgstr ""
+
+#: templates/admin/settings-page.php:15
+msgid "Settings saved successfully."
+msgstr ""
+
+#: templates/admin/settings-page.php:25
+msgid "Installment Plugin Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:32
+msgid "Processing Fee (PKR)"
+msgstr ""
+
+#: templates/admin/settings-page.php:35
+msgid "The processing fee that will be added to the product price for installment calculations."
+msgstr ""
+
+#: templates/admin/settings-page.php:41
+msgid "Show Installment Button"
+msgstr ""
+
+#: templates/admin/settings-page.php:44
+msgid "On all products"
+msgstr ""
+
+#: templates/admin/settings-page.php:45
+msgid "Only on selected products"
+msgstr ""
+
+#: templates/admin/settings-page.php:47
+msgid "Choose whether to show the \"Buy on Installments\" button on all products or only on products where you enable it individually."
+msgstr ""
+
+#: templates/admin/settings-page.php:49
+msgid "Note:"
+msgstr ""
+
+#: templates/admin/settings-page.php:49
+msgid "You can enable installment for individual products in the product edit page."
+msgstr ""
+
+#: templates/admin/settings-page.php:55
+msgid "Calculator Page"
+msgstr ""
+
+#: templates/admin/settings-page.php:58
+msgid "-- Select a page --"
+msgstr ""
+
+#: templates/admin/settings-page.php:63
+msgid "Select the page where the installment calculator shortcode [ms_installment_calculator] is placed."
+msgstr ""
+
+#: templates/admin/settings-page.php:65
+msgid "Edit this page"
+msgstr ""
+
+#: templates/admin/settings-page.php:71
+msgid "Save Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:76
+msgid "Shortcode Usage"
+msgstr ""
+
+#: templates/admin/settings-page.php:77
+msgid "Use the following shortcode to display the installment calculator on any page or post:"
+msgstr ""
+
+#: templates/admin/settings-page.php:81
+msgid "Shortcode Parameters"
+msgstr ""
+
+#: templates/admin/settings-page.php:82
+msgid "You can also pre-fill the calculator with product information:"
+msgstr ""
+
+#: templates/admin/settings-page.php:88
+msgid "Product Settings"
+msgstr ""
+
+#: templates/admin/settings-page.php:89
+msgid "To enable installment for individual products:"
+msgstr ""
+
+#: templates/admin/settings-page.php:91
+msgid "Go to Products → All Products"
+msgstr ""
+
+#: templates/admin/settings-page.php:92
+msgid "Edit a product"
+msgstr ""
+
+#: templates/admin/settings-page.php:93
+msgid "Look for the \"Installment Settings\" meta box in the sidebar"
+msgstr ""
+
+#: templates/admin/settings-page.php:94
+msgid "Check \"Enable installment for this product\""
+msgstr ""
+
+#: templates/admin/settings-page.php:95
+msgid "Update the product"
+msgstr ""
+
+#: templates/admin/settings-page.php:99
+msgid "Installment Button"
+msgstr ""
+
+#: templates/admin/settings-page.php:100
+msgid "The \"Buy on Installments\" button will appear on product pages for:"
+msgstr ""
+
+#: templates/admin/settings-page.php:103
+msgid "All products (current setting)"
+msgstr ""
+
+#: templates/admin/settings-page.php:107
+msgid "Only products where you have enabled installment individually"
+msgstr ""
+
+#: templates/admin/settings-page.php:110
+msgid "The button will link to the calculator page with the product information pre-filled."
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:120
+msgid "Product Information"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:123
+msgid "Product Name"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:127
+msgid "Product Price"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:131
+msgid "Processing Fee"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:135
+msgid "Total Amount"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:139
+msgid "Monthly Installment (3 months)"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:145
+msgid "Customer Information"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:148
+msgid "Full Name"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:152
+msgid "Email Address"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:156
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:160
+msgid "Address"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:164
+msgid "Eligibility Information"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:167
+msgid "Lahore Resident"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:168
+msgid "Yes"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:168
+msgid "No"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:172
+msgid "Residence Type"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:173
+msgid "Own"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:173
+msgid "Rented"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:177
+msgid "Profession"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:178
+msgid "Job"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:178
+msgid "Business"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:182
+msgid "Bank Account"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:187
+msgid "Can Provide Guarantor"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:192
+msgid "Has CNIC"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:198
+msgid "Application Actions"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:201
+msgid "Current Status"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:208
+msgid "Set Pending"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:209
+msgid "Approve"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:210
+msgid "Reject"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:214
+msgid "Admin Notes"
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:215
+msgid "Add notes about this application..."
+msgstr ""
+
+#: includes/class-ms-installment-admin.php:216
+msgid "Save Notes"
+msgstr "" 
